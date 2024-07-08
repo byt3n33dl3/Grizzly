@@ -24,7 +24,7 @@ made with love by: maldev - pxcs - TTPanel
 > - Powerful: Support login registration/ usermanagement/ nodemanagement/ mailmanagement/ blacklist management/ custom
   camouflage website / system Kanban, etc.
 - What you see is what you get: Support multi node management, automatic management of remote nodes, automatic
-  application/renewal of certificates, editing nodes in the panel, remote service real-time modification of node
+  application/renewal of certificates, editing nodes in the panel, remote service real time modification of node
   configuration
 
 ## Recommended OS
@@ -57,6 +57,7 @@ echo -e grizzly.c
 ## Thanks to
 
 - [pxcs](https://github.com/pxcs)
+- [hashcat-legacy](https://github.com/hashcat)
 - [trojan](https://github.com/trojan-gfw/trojan)
 - [trojan-go](https://github.com/p4gefau1t/trojan-go)
 - [Xray-core](https://github.com/XTLS/Xray-core)
