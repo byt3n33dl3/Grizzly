@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: windows-2022
+    
+    steps:
+    - uses: actions/checkout@v2
+    - uses: microsoft/setup-msbuild@v1
+    - uses: NuGet/setup-nuget@v1.0.5
+    - uses: darenm/Setup-VSTest@v1
+    - name: nuget restore
+      run: nuget.exe restore krabs\krabs.sln
+    - name: build release x64
+      run: msbuild.exe /nologo /m /t:Rebuild /p:Configuration=Release /p:Platform=x64 krabs\krabs.sln
+    - name: build debug x64
+      run: msbuild.exe /nologo /m /t:Rebuild /p:Configuration=Debug /p:Platform=x64 krabs\krabs.sln
+    - name: build release ARM64
+      run: msbuild.exe /nologo /m /t:Rebuild /p:Configuration=Release /p:Platform=ARM64 krabs\krabs.sln
+    - name: build debug ARM64
+      run: msbuild.exe /nologo /m /t:Rebuild /p:Configuration=Debug /p:Platform=ARM64 krabs\krabs.sln
+    - name: test native debug
+      run: vstest.console.exe krabs\x64\Debug\krabstests.dll
+    - name: test debug net462
+      run: vstest.console.exe tests\ManagedETWTests\bin\x64\Debug\net462\EtwTestsCS.dll
+    - name: test debug net6.0
+      run: vstest.console.exe tests\ManagedETWTests\bin\x64\Debug\net6.0\EtwTestsCS.dll
