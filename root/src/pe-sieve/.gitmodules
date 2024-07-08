@@ -1,9 +1,0 @@
-[submodule "libpeconv"]
-	path = libpeconv
-	url = https://github.com/hasherezade/libpeconv.git
-[submodule "paramkit"]
-	path = paramkit
-	url = https://github.com/hasherezade/paramkit
-[submodule "sig_finder"]
-	path = sig_finder
-	url = https://github.com/hasherezade/sig_finder
