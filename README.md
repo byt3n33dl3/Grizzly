@@ -4,7 +4,7 @@
 <a href="https://github.com/trojanpanel/install-script/issues"><img src="https://img.shields.io/github/issues/trojanpanel/install-script" alt="GitHub issues"></a>
 </div>
 
-**grizzly** - TheTrojanPanel
+# Grizzly 
 
 ```shell                    
          _         _     
@@ -13,9 +13,9 @@
 |_  |_| |_|___|___|_|_  |
 |___|               |___|
 
-made with love by: maldev - pxcs - TTPanel
+made with love by: Malware Developers / byt3n33dl3., TTPanel
 ```
-## Features
+## Trojan Panel Features
 
 > - Speed build: One-click installation of scripts, lowering the deployment threshold, and quickly building the systemفارسی
 - Multi host/ agent support: Node type supports Xray/ Trojan-Go/ Hysteria/ NaiveProxy
@@ -56,7 +56,7 @@ echo -e grizzly.c
 
 ## Thanks to
 
-- [pxcs](https://github.com/pxcs)
+- [byt3n33dl3](https://github.com/byt3n33dl3/)
 - [hashcat-legacy](https://github.com/hashcat)
 - [trojan](https://github.com/trojan-gfw/trojan)
 - [trojan-go](https://github.com/p4gefau1t/trojan-go)
