@@ -17,11 +17,11 @@ made with love by: Malware Developers / byt3n33dl3., TTPanel
 ```
 ## Trojan Panel Features
 
-> - Speed build: One-click installation of scripts, lowering the deployment threshold, and quickly building the systemفارسی
-- Multi host/ agent support: Node type supports Xray/ Trojan-Go/ Hysteria/ NaiveProxy
+- Speed build: One-click installation of scripts, lowering the deployment threshold, and quickly building the system
+    - Multi host/ agent support: Node type supports Xray/ Trojan-Go/ Hysteria/ NaiveProxy
 - Distributed: The front-end and back-end are developed separately, reducing the coupling between modules, and can be
   freely combined and deployed on multiple servers
-> - Powerful: Support login registration/ usermanagement/ nodemanagement/ mailmanagement/ blacklist management/ custom
+- Powerful: Support login registration/ usermanagement/ nodemanagement/ mailmanagement/ blacklist management/ custom
   camouflage website / system Kanban, etc.
 - What you see is what you get: Support multi node management, automatic management of remote nodes, automatic
   application/renewal of certificates, editing nodes in the panel, remote service real time modification of node
@@ -29,30 +29,9 @@ made with love by: Malware Developers / byt3n33dl3., TTPanel
 
 ## Recommended OS
 
-**OS:** CentOS 7+ / Ubuntu 18+ / Debian 10+
+**OS:** CentOS 7+ or Ubuntu 18+ or Debian 10+
 
 **CPU:** linux/amd64 **-** linux/arm/v6 **-** linux/arm/v7 **-** linux/arm64 **-** linux/s390x **-** linux/ppc64le **-** linux/386
-
-```shell
-echo -e grizzly.c
-
-⠀⠀⠀⠀⠀⠀⠀⠀⢰⣾⣿⣶⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⣷⣹⣿⣶⣤⣾⣷⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⣿⣷⣦⣤⣄⠀⠀⠀⠀⠀⠀
-⠀⠀⣀⣠⣿⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⣟⢿⣷⣾⣿⣿⣿⣿⣄⣀⠀⠀⠀⠀
-⠀⣨⣿⣿⣿⣿⡟⠐⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⢟⣛⣿⣿⣿⣿⣿⣟⣶⡦
-⠴⠿⣿⣿⣿⣿⠇⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠙⢹⠛⣿⣾⡿⣿⠃
-⠀⠀⠘⣿⣿⣿⣄⠀⣿⣿⣿⣿⣿⣿⣿⣿⢻⣿⠋⠤⠀⢸⠂⠚⡀⠅⠀⠀⠇⠀
-⠀⠀⠀⢻⣿⣿⣿⣄⠉⢿⣿⣿⣿⣿⣿⣿⡼⣿⡣⠀⠀⣟⠠⣄⠐⠀⠀⠐⠀⠀
-⠀⠀⠀⠸⠻⣿⣿⣿⣷⣜⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣌⣙⡿⠈⣔⣄⢡⠀⠀⠀
-⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣮⠀⠀⠀
-⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠈⠉⠛⠻⠿⠿⢻⠿⡿⠃⠀⠀⠀
-⠀⠀⠀⠀⠀⠈⢿⠛⠻⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠈⠀⠀⠘⠻⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋⠻⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠙⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-```
 
 ## Thanks to
 
